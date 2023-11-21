@@ -1,0 +1,22 @@
+:root{
+    --color-primary-60-md: #f5f5dc;
+    --color-primary-trans-60-md: #f5f5dc77;
+    
+    --color-acent-10-md: green;
+}
+
+.my-bgc-primary{
+    background-color: var(--color-primary-60-md);
+}
+
+.my-bgc-primary-t{
+    background-color: var(--color-primary-trans-60-md);
+}
+
+.my-color-primary{
+    color: var(--color-acent-10-md);
+}
+
+.my-opacity-50{
+    background-color: RGBA(var(--bs-success-rgb), 0.8) !important;
+}

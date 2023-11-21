@@ -1,0 +1,29 @@
+body{
+    font-size: 20px;
+}
+
+.navbar .brand{
+    padding-top:3%;
+    padding-left: 3%;
+}
+
+.brand{
+    font-family: 'Marck Script', cursive;
+    margin:0;
+}
+
+h1{
+    font-size: 64px;
+}
+
+h2{
+    font-size: 48px;
+}
+
+.carousel-caption h5{
+    font-size: 28px;
+}
+
+.carousel-caption h4{
+    font-size: 36px;
+}

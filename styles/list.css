@@ -1,0 +1,14 @@
+.green-list{
+    list-style-type: none;
+    /* list-style-image: url("../assets/icons8-hoja-96.png"); */
+}
+
+.green-list li::before {
+    content: ""; /* Agregamos un pseudo-elemento antes de cada elemento de la lista */
+    display: inline-block; /* Lo hacemos bloque para poder ajustar su tamaño */
+    height: 16px; /* Altura de la imagen */
+    width: 16px; /* Ancho de la imagen */
+    background-image: url('../assets/icons8-hoja-96.png'); /* Imagen que deseamos usar */
+    background-size: contain; /* Aseguramos que la imagen se ajuste al tamaño especificado */
+    margin-right: 16px; /* Espacio a la derecha de la imagen */
+  }
