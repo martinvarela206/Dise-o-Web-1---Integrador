@@ -7,7 +7,7 @@ dataJSON.forEach((product, i) => {
   productDiv.classList.add("col", "d-flex", "justify-content-center");
 
   productDiv.innerHTML = `<div class="card shadow-sm my-bgc-primary" style="width: 18rem">
-    <img src="../assets/product.png" class="card-img-top" alt="..." />
+    <img src="assets/product.png" class="card-img-top" alt="..." />
     <div class="card-body">
       <h6 class="card-title">
         ${product.name}
