@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic&family=Marck+Script&display=swap');
+
 body{
     font-size: 20px;
 }
@@ -26,4 +28,25 @@ h2{
 
 .carousel-caption h4{
     font-size: 36px;
+}
+
+span.underline{
+  position: relative;
+}
+
+span.underline::after{
+  content: '';
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%; 
+  height: 3px;
+  display: block; 
+  margin-top: 24px;
+  margin-bottom: 24px;
+  position: absolute;
+  background-color: var(--color-acent-10-md);
+}
+
+body{
+  font-family: 'Livvic', sans-serif;
 }

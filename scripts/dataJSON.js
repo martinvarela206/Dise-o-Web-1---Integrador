@@ -2,7 +2,7 @@ export const dataJSON = [
   {
     name: "Aceite de Coco Orgánico",
     size: "500ml",
-    offer: true,
+    offer: false,
     discount: 15,
     price: 30000
   },

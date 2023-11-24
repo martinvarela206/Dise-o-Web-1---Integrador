@@ -1,3 +1,4 @@
+@import url("body.css");
 @import url("colors.css");
 @import url("navbar.css");
 @import url("fonts.css");
@@ -8,6 +9,7 @@
 @import url("oldPrice.css");
 @import url("links.css");
 @import url("products.css");
+@import url("images.css");
 
 :root{
     --c-primary: green;

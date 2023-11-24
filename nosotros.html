@@ -39,9 +39,9 @@
 <body>
   <header>
     <!-- BARRA DE NAVEGACIÓN CON MARCA -->
-    <nav class="navbar navbar-expand-sm my-bgc-primary">
+    <nav class="navbar navbar-expand-lg my-bgc-primary">
       <div class="container-fluid">
-        <a class="navbar-brand d-flex align-items-center me-md-5" href="index.html"
+        <a class="navbar-brand d-flex align-items-center me-md-5" href="#"
           ><img
             class="d-none d-md-block"
             src="assets/icon.png"
@@ -66,8 +66,11 @@
             <li class="nav-item me-sm-0 ms-sm-3 me-sm-3 ms-md-0 me-md-5">
               <a class="nav-link" href="products.html">Productos</a>
             </li>
+            <li class="nav-item me-sm-0 ms-sm-3 me-sm-3 ms-md-0 me-md-5">
+              <a class="nav-link" href="nosotros.html">Conocenos</a>
+            </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Conocenos</a>
+              <a class="nav-link" href="#contactModal" data-bs-toggle="modal" data-bs-target="#contactModal">Contacto</a>
             </li>
           </ul>
         </div>
@@ -76,35 +79,47 @@
   </header>
   <main>
     <!-- CONTENIDO DE LA PÁGINA -->
-    <section class="container mt-5 mb-5">
-    <h3 class="my-color-primary">Somos una Empresa Regional</h3>
-        <p>Nos dedicamos a la comercialización de Productos Naturales beneficiosos para el organismo y el medio ambiente.</p>
-        <ul class="green-list">
-          <li>Nos aseguramos que nuestros productos sean 100% naturales.</li>
-          <li>Cuidamos el medioamebiente a traves de envases biodegradables.</li>
-          <li>Seleccionamos aquellos productos que preserven sus valores nutricionales y de belleza.</li>
-          <li>Tenemos un compromiso con el clima, al verificar que los productos no sean fuente de CO2.</li>
-          <li>Potenciamos a productores locales, para ofrecer cuidado desde origen y fuentes ecologica fiables.</li>
-        </ul>
-      </section>
-      <!-- Clientes destacados -->
-      <section class="clientes">Clientes</section>
-    <!-- Cards: Ofertas -->
-    <section id="products" class="row row-cols-1 row-cols-md-2 row-cols-xl-3 row-cols-xxl-4 g-4 pt-5 pb-5">
+    <section class="container mt-5 mb-5 p-3">
+    <h3 class="underline my-color-primary text-center mb-5 "><span class="underline">Somos una Empresa Regional</span></h3>
+      <p>Nos dedicamos a la comercialización de Productos Naturales beneficiosos para el organismo y el medio ambiente.</p>
+      <ul class="green-list">
+        <li>Nos aseguramos que nuestros productos sean 100% naturales.</li>
+        <li>Cuidamos el medioamebiente a traves de envases biodegradables.</li>
+        <li>Seleccionamos aquellos productos que preserven sus valores nutricionales y de belleza.</li>
+        <li>Tenemos un compromiso con el clima, al verificar que los productos no sean fuente de CO2.</li>
+        <li>Potenciamos a productores locales, para ofrecer cuidado desde origen y fuentes ecologica fiables.</li>
+      </ul>
+    </section>
+    <!-- Clientes destacados -->
+    <section id="products" class="mt-5 mb-5 my-bgc-primary p-3">
+        <h3 class="mb-5 my-color-primary text-center"><span class="underline">Nuestros proveedores</span></h3>
+        <article class="row row-cols-1 row-cols-md-2 row-cols-xl-3 row-cols-xxl-4 gap-3">
+          <img src="assets/clients/LOGO-GATTI.png" alt="" class=" mx-auto d-block">
+          <img src="assets/clients/NATURA.PNG" alt="" class=" mx-auto d-block">
+          <img src="assets/clients/TOTTUS.PNG" alt="" class=" mx-auto d-block">
+          <img src="assets/clients/VIVIANDA.PNG" alt="" class=" mx-auto d-block">
+        </article>
+    </section>
+    <section class="container mt-5 mb-5 p-3 d-flex flex-column gap-5 text-center">
+      <h3 class="my-color-primary"><span class="underline">¿Te gustaría ser parte de nuestro equipo de más de 6.300 colaboradores?</span></h3>
+      <p>NaturaVit es una empresa regional argentina del sector de la nutrición, cosméticos, higiene y belleza, con modelo comercial multicanal de ventas fundada hace 50 años. Desde 2017 forma parte del grupo Natura&CO, conformado también por Aesop, Avon y The Body Shop.</p>
+      <p>Somos una compañía pionera <strong>comprometida</strong> con la generación de <strong>impacto positivo económico, social y ambiental</strong>. Nuestro portafolio tiene productos de origen natural, valoramos la trazabilidad y la sustentabilidad en la obtención de ingredientes y, con eso, la preservación de la biodiversidad, el comercio justo con los proveedores, la eliminación de las pruebas en animales, la medición de los impactos de la producción (lo que incluye la neutralización y búsqueda de la reducción de las emisiones de carbono) y el apoyo a la educación.</p>
+      <p>¡NaturalVit está en la lista de las empresas más éticas del mundo según Ethisphere Institute y estamos entre las empresas con <strong>mejor reputación corporativa</strong> en todos los países latinoamericanos donde actuamos!</p>
     </section>
   </main>
   <footer>
     <!-- PIE DE PÁGINA -->
     <!-- Mapa del sitio, Accesos directos a productos, Ubicación y otras formas de contacto y redes sociales, Copyright y Desarrollador de la pagina -->
     <section class="d-flex p-5">
-      <article class="col container">
+      <article class="sitemap col">
         <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="products.html">Productos</a></li>
-          <li><a href="nosotros.html">Conocenos</a></li>
+          <li class="mb-2"><a href="index.html">Inicio</a></li>
+          <li class="mb-2"><a href="products.html">Productos</a></li>
+          <li class="mb-2"><a href="nosotros.html">Conocenos</a></li>
+          <li><a href="#contactModal" data-bs-toggle="modal" data-bs-target="#contactModal"><i class="bi bi-envelope"></i> Contacto</a></li>
         </ul>
       </article>
-      <article class="col container">
+      <article class="col">
         <ul>
           <li><i class="bi bi-geo-alt"></i> San Juan, Calle 123 sur</li>
           <li class="d-flex">Sociales: 
@@ -113,7 +128,6 @@
             <a class="me-3" href="http://x.com"><i class="bi bi-twitter-x"></i></a>
             <a href="http://wa.me/123456789"><i class="bi bi-whatsapp"></i></a>
           </li>
-          <li><i class="bi bi-envelope"></i> Contacto</li>
           <li><i class="bi bi-c-circle"></i> Copyright NaturalVit</li>
           <li><i class="bi bi-code-slash"></i> Desarrollo Web: <a href="mailto:martinvarela206@gmail.com"></i>martinvarela206@gmail.com</a></li>
         </ul>
@@ -125,6 +139,5 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"
   ></script>
-  <!-- <script src="./scripts/allProducts.js" type="module"></script> -->
 </body>
 </html>

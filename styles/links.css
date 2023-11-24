@@ -25,7 +25,7 @@
 }
 
 .sitemap a:hover::after{
-  background-color: rgb(114, 133, 81);;
+  background-color: rgb(114, 133, 81);
 }
 
 @keyframes ampliar-anchura {

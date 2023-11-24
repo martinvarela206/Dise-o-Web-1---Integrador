@@ -39,7 +39,7 @@
   <body>
     <header>
       <!-- BARRA DE NAVEGACIÓN CON MARCA -->
-      <nav class="navbar navbar-expand-sm my-bgc-primary">
+      <nav class="navbar navbar-expand-lg my-bgc-primary">
         <div class="container-fluid">
           <a class="navbar-brand d-flex align-items-center me-md-5" href="#"
             ><img
@@ -66,8 +66,11 @@
               <li class="nav-item me-sm-0 ms-sm-3 me-sm-3 ms-md-0 me-md-5">
                 <a class="nav-link" href="products.html">Productos</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item me-sm-0 ms-sm-3 me-sm-3 ms-md-0 me-md-5">
                 <a class="nav-link" href="nosotros.html">Conocenos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactModal" data-bs-toggle="modal" data-bs-target="#contactModal">Contacto</a>
               </li>
             </ul>
           </div>
@@ -114,7 +117,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src="assets/carousel/istockphoto-1029822304-612x612.jpg"
+              src="assets/carousel/carousel01.png"
               class="d-block w-100"
               alt="..."
             />
@@ -125,7 +128,7 @@
           </div>
           <div class="carousel-item">
             <img
-              src="assets/carousel/istockphoto-1287041145-612x612.jpg"
+              src="assets/carousel/carousel02.png"
               class="d-block w-100"
               alt="..."
             />
@@ -136,7 +139,7 @@
           </div>
           <div class="carousel-item">
             <img
-              src="assets/carousel/istockphoto-1289221022-612x612.jpg"
+              src="assets/carousel/carousel03.png"
               class="d-block w-100"
               alt="..."
             />
@@ -147,7 +150,7 @@
           </div>
           <div class="carousel-item">
             <img
-              src="assets/carousel/istockphoto-611173524-612x612.jpg"
+              src="assets/carousel/carousel04.png"
               class="d-block w-100"
               alt="..."
             />
@@ -178,16 +181,16 @@
       </section>
       <!-- Cards: Ofertas -->
       <!-- PRODUCTOS EN OFERTA CARGADOS DINAMICAMENTE -->
-      <article id="products" class="row row-cols-1 row-cols-md-2 row-cols-xl-3 row-cols-xxl-4 g-4 pt-5 pb-5 my-bgc-primary">
+      <section id="products" class="row row-cols-1 row-cols-md-2 row-cols-xl-3 row-cols-xxl-4 g-4 p-4 my-bgc-primary">
         
-      </article>
+      </section>
       <!-- Mensaje resumen de por que elegirnos y Boton a Modal: Por que elegirnos -->
       <section class="p-5 d-flex flex-column">
         <h2 class="brand my-color-primary align-self-center mb-3">Por qué elegirnos?</h2>
         <a href="nosotros.html" class="btn rounded-pill btn-warning align-self-center">Conocenos!</a>
       </section>
       <!-- Mensaje de envio de productos y boton a modal para contacto -->
-      <section class="contacto my-bgc-primary p-5 d-flex justify-content-center"><button type="button" data-bs-toggle="modal" data-bs-target="#contactModal" class="badge text-bg-success p-5 fs-4"><i class="bi bi-envelope fs-3"></i> Contacto</button></section>
+      <section class="contacto my-bgc-primary p-5 d-flex justify-content-center"></section>
       <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -214,7 +217,8 @@
           <ul>
             <li class="mb-2"><a href="index.html">Inicio</a></li>
             <li class="mb-2"><a href="products.html">Productos</a></li>
-            <li><a href="nosotros.html">Conocenos</a></li>
+            <li class="mb-2"><a href="nosotros.html">Conocenos</a></li>
+            <li><a href="#contactModal" data-bs-toggle="modal" data-bs-target="#contactModal"><i class="bi bi-envelope"></i> Contacto</a></li>
           </ul>
         </article>
         <article class="col">
@@ -226,7 +230,6 @@
               <a class="me-3" href="http://x.com"><i class="bi bi-twitter-x"></i></a>
               <a href="http://wa.me/123456789"><i class="bi bi-whatsapp"></i></a>
             </li>
-            <li><i class="bi bi-envelope"></i> Contacto</li>
             <li><i class="bi bi-c-circle"></i> Copyright NaturalVit</li>
             <li><i class="bi bi-code-slash"></i> Desarrollo Web: <a href="mailto:martinvarela206@gmail.com"></i>martinvarela206@gmail.com</a></li>
           </ul>
