@@ -19,6 +19,7 @@ Grupo 19 - Tienda Naturista
 - <https://www.canva.com>: Recortar las imagenes.
 - <https://www.remove.bg>: Quitar fondo.
 - <https://pxhere.com/>: Imagenes gratis de alta calidad.
+- <https://vectorizer.ai/>: Vectoriza imagenes con IA.
 
 ## Entrega y Exposición
 
