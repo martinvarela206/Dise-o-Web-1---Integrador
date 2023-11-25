@@ -50,3 +50,7 @@ span.underline::after{
 body{
   font-family: 'Livvic', sans-serif;
 }
+
+.no-btn, p, h1:not(.brand), h2, h3, h4, h5, h6{
+    cursor:default;
+}

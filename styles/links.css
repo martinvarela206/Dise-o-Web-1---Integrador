@@ -9,6 +9,10 @@
   color: var(--color-acent-10-md);
 }
 
+.navbar .links span.active{
+  font-size: 24px;
+}
+
 .navbar .links a:hover::after,.sitemap a:hover::after {
   content: ''; 
   width: 100%; 

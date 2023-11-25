@@ -18,6 +18,7 @@ Grupo 19 - Tienda Naturista
 - <https://iconos8.es/icons/set/tree>: Iconos.
 - <https://www.canva.com>: Recortar las imagenes.
 - <https://www.remove.bg>: Quitar fondo.
+- <https://pxhere.com/>: Imagenes gratis de alta calidad.
 
 ## Entrega y Exposición
 

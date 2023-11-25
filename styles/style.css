@@ -10,6 +10,7 @@
 @import url("links.css");
 @import url("products.css");
 @import url("images.css");
+@import url("modal.css");
 
 :root{
     --c-primary: green;
