@@ -1,3 +1,25 @@
 .btn{
   bottom: 0;
 }
+
+.btn-leaf{
+  border-radius: 16px 0 16px 0;
+}
+
+.btn-buy{
+  background-color: var(--color-10-light);
+  color: var(--color-30-dark);
+}
+
+.btn-buy:hover{
+  background-color: var(--color-10-medium);
+  color: var(--color-60-light);
+}
+
+.btn-border{
+  border: 2px solid var(--color-10-dark);
+}
+
+.btn-border:hover{
+  border: 2px solid var(--color-30-dark);
+}

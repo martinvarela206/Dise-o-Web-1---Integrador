@@ -25,7 +25,7 @@
 }
 
 .navbar .links a:hover::after{
-  background-color: var(--color-acent-10-md);
+  background-color: var(--color-30-medium);
 }
 
 .sitemap a:hover::after{

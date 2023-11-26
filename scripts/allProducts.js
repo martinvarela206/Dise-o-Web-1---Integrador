@@ -4,11 +4,11 @@ const body = document.querySelector("#products");
 
 dataJSON.forEach((product, i) => {
   const productDiv = document.createElement("div");
-  productDiv.classList.add("col", "d-flex", "justify-content-center");
+  productDiv.classList.add("col", "d-flex", "justify-content-center","mt-3", "mb-3");
 
-  productDiv.innerHTML = `<div class="card shadow-sm my-bgc-primary" style="width: 18rem">
-    <div class="circleImgContainer"><img src="assets/product.png" class="card-img-top" alt="..." /></div>
-    <div class="card-body">
+  productDiv.innerHTML = `<div class="card shadow p-3 my-gradient-color">
+    <div class="circleImgContainer my-border-color"><img src="assets/product.png" class="card-img-top" alt="..." /></div>
+    <div class="card-body mt-3">
       <h6 class="card-title">
         ${product.name}
       </h6>
@@ -20,7 +20,7 @@ dataJSON.forEach((product, i) => {
         product.offer ? ("-"+product.discount+"% descuento!") : ""
       }</span></p>
     </div>
-    <div class="card-footer"><a href="#" class="btn rounded-pill btn-warning float-end">Comprar</a></div>
+    <div class="card-footer"><a href="#" class="btn btn-leaf btn-buy float-end">Comprar</a></div>
   </div>
   `;
 

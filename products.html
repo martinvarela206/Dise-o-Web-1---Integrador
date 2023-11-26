@@ -39,7 +39,7 @@
   <body>
     <header>
       <!-- BARRA DE NAVEGACIÓN CON MARCA -->
-      <nav class="navbar navbar-expand-lg my-bgc-primary">
+      <nav class="navbar navbar-expand-lg my-bgc-primary my-color-primary">
         <div class="container-fluid">
           <a class="navbar-brand d-flex align-items-center me-md-5" href="index.html"
             ><img
@@ -64,7 +64,7 @@
           <div class="collapse navbar-collapse links" id="navbar-toggler">
             <ul class="navbar-nav me-auto d-flex align-items-center">
               <li class="nav-item me-sm-0 ms-sm-3 me-sm-3 ms-md-0 me-md-5">
-                <span class="active badge no-btn text-bg-success ">Productos</span>
+                <span class="active no-btn btn-leaf my-badges p-3">Productos</span>
               </li>
               <li class="nav-item me-sm-0 ms-sm-3 me-sm-3 ms-md-0 me-md-5">
                 <a class="nav-link" href="nosotros.html">Conocenos</a>
@@ -78,32 +78,33 @@
       </nav>
     </header>
     <main>
-      <!-- CONTENIDO DE LA PÁGINA -->
-      <!-- Cards: Ofertas -->
-      <section id="products" class="row row-cols-1 row-cols-md-2 row-cols-xl-3 row-cols-xxl-4 g-4 pt-5 pb-5">
+      <!-- Cards: Productos (cargados dinamicamente) -->
+      <section class="p-5 d-flex flex-column my-bgc-secondary">
+        <h2 class="my-color-primary-dark align-self-center mb-3"><span class="underline">Todos nuestros productos</span></h2>
+        <div id="products" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-3 row-cols-xxl-4 p-4 g-4">
+        </div>
       </section>
     </main>
     <!-- MODAL de contacto -->
     <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Contacto</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-content my-bgc-secondary">
+          <div class="modal-header text-center">
+            <h2 class="modal-title" id="exampleModalLabel"><span class="underline my-color-primary-dark">Formulario de Contacto</span></h2>
           </div>
           <div class="modal-body d-flex flex-column gap-5 p-5">
-            <input type="email" name="" id="" class="contact-mail p-2 ps-3 pe-3" placeholder="Su email...">
+            <input type="email" name="" id="" class="contact-mail p-2 ps-3 pe-3 big-leaf my-color-primary-dark" placeholder="Su email...">
             <!-- <input type="text" name="" id="" class="contact-msg p-2 ps-3 pe-3" placeholder="Motivo de su consulta..."> -->
-            <textarea class="p-2 ps-3 pe-3" name="" id="" cols="30" rows="10" placeholder="Motivo de su consulta..."></textarea>
+            <textarea class="p-2 ps-3 pe-3 big-leaf my-color-primary-dark" name="" id="" cols="30" placeholder="Motivo de su consulta..."></textarea>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Enviar</button>
+            <button type="button" class="btn btn-leaf btn-buy" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-leaf btn-buy" data-bs-dismiss="modal">Enviar</button>
           </div>
         </div>
       </div>
     </div>
-    <footer>
+    <footer class="my-footer">
       <!-- PIE DE PÁGINA -->
       <!-- Mapa del sitio, Accesos directos a productos, Ubicación y otras formas de contacto y redes sociales, Copyright y Desarrollador de la pagina -->
       <section class="d-flex p-5">
@@ -119,13 +120,14 @@
           <ul>
             <li><i class="bi bi-geo-alt"></i> San Juan, Calle 123 sur</li>
             <li class="d-flex">Sociales: 
-              <a class="me-3 ms-3" href="http://instagram.com"><i class="bi bi-instagram"></i></a>
-              <a class="me-3" href="http://facebook.com"><i class="bi bi-facebook"></i></a>
-              <a class="me-3" href="http://x.com"><i class="bi bi-twitter-x"></i></a>
-              <a href="http://wa.me/123456789"><i class="bi bi-whatsapp"></i></a>
+              <a class="me-3 ms-3" href="http://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+              <a class="me-3" href="http://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+              <a class="me-3" href="http://x.com" target="_blank"><i class="bi bi-twitter-x"></i></a>
+              <a href="http://wa.me/123456789" target="_blank"><i class="bi bi-whatsapp"></i></a>
             </li>
             <li><i class="bi bi-c-circle"></i> Copyright NaturalVit</li>
             <li><i class="bi bi-code-slash"></i> Desarrollo Web: <a href="mailto:martinvarela206@gmail.com"></i>martinvarela206@gmail.com</a></li>
+            <li><i class="fa-brands fa-figma"></i> Figma: <a href="https://www.figma.com/file/apmBpaBxEKUQDcYgIP4uUK/Integrador?type=design&node-id=0%3A1&mode=design&t=wtuJoukfZP6UKGJ3-1" target="_blank"></i>Diseño Web 1: Integrador</a></li>
           </ul>
         </article>
       </section>
@@ -136,5 +138,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="./scripts/allProducts.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/c9c075e8ff.js" crossorigin="anonymous"></script>
   </body>
 </html>

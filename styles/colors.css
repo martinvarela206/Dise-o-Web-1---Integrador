@@ -1,22 +1,80 @@
 :root{
-    --color-primary-60-md: #f5f5dc;
-    --color-primary-trans-60-md: #f5f5dc77;
-    
-    --color-acent-10-md: green;
+    --color-60-trans: #C3EE7863;
+    --color-60-dark: #C3EE78;
+    --color-60-light: #D7F6A1;
+    --color-30-darker: #2C2C47;
+    --color-30-dark: #35365A;
+    --color-30-medium: #37465C;
+    --color-30-light: #516077;
+    --color-10-dark: #3F6A5E;
+    --color-10-medium: #609406;
+    --color-10-light: #8ACD16;
 }
 
 .my-bgc-primary{
-    background-color: var(--color-primary-60-md);
+    background-color: var(--color-60-dark);
 }
 
-.my-bgc-primary-t{
-    background-color: var(--color-primary-trans-60-md);
+.my-bgc-secondary{
+    background-color: var(--color-60-light);
+}
+
+.my-bgc-transparent{
+    background-color: var(--color-60-trans);
+}
+
+.my-footer, .my-footer a{
+    background-color: var(--color-30-darker);
+    color: var(--color-10-dark);
+}
+
+.my-footer a:hover{
+    color: var(--color-10-medium);
+}
+
+.my-badges{
+    background-color: var(--color-30-dark);
+    color: var(--color-60-light);
 }
 
 .my-color-primary{
-    color: var(--color-acent-10-md);
+    color: var(--color-30-medium);
+}
+
+.my-color-primary-dark{
+    color: var(--color-30-darker);
+}
+
+.my-color-secondary{
+    color: var(--color-30-light);
+}
+
+.my-border-color{
+    border-color: var(--color-60-light);
+}
+
+.my-btn-color{
+    background-color: var(--color-10-light);
+    color: var(--color-30-dark);
+}
+
+.my-hover-btn-color{
+    background-color: var(--color-10-dark);
+    color: var(--color-60-dark);
 }
 
 .my-opacity-50{
-    background-color: RGBA(var(--bs-success-rgb), 0.8) !important;
+    background-color: RGBA(var(--color-30-dark), 0.8) !important;
+}
+
+.my-text-primary-color{
+    color: var(--color-30-dark);
+}
+
+.my-text-secondary-color{
+    color: var(--color-30-medium);
+}
+
+.my-gradient-color{
+    background: linear-gradient(to right, #35365A, #37465C, #35365A);
 }

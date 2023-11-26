@@ -1,7 +1,7 @@
 .circleImgContainer{
-  border: 1px solid #333;
+  border-style:dashed;
+  border-width: 8px;
   overflow: hidden;
-  margin: 32px;
   aspect-ratio: 1;
   border-radius: 50%;
   position:relative;
