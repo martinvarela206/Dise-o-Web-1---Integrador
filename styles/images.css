@@ -9,4 +9,8 @@
 
 #products img{
   height: auto;
+/*   max-width: 280px;
+  max-height: 280px;
+  position: relative;
+  top: 30px; */
 }
