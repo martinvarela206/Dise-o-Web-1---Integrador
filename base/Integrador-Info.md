@@ -26,6 +26,10 @@ Grupo 19 - Tienda Naturista
 Entrega: Hasta el domingo 26 de Nov a las 23:55hs.
 Exposición: Lunes 27 de Nov a las 16hs.
 
+Github Page: <https://martinvarela206.github.io/Integrador-Disenio-Web-1/>
+Github: <https://github.com/martinvarela206/Integrador-Disenio-Web-1>
+Figma: <https://www.figma.com/file/apmBpaBxEKUQDcYgIP4uUK/Integrador?type=design&node-id=0%3A1&mode=design&t=wtuJoukfZP6UKGJ3-1>
+
 ## Actividades
 
 - Guia de Estilos
