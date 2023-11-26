@@ -30,6 +30,18 @@ Github Page: <https://martinvarela206.github.io/Integrador-Disenio-Web-1/>
 Github: <https://github.com/martinvarela206/Integrador-Disenio-Web-1>
 Figma: <https://www.figma.com/file/apmBpaBxEKUQDcYgIP4uUK/Integrador?type=design&node-id=0%3A1&mode=design&t=wtuJoukfZP6UKGJ3-1>
 
+## Mensaje de Entrega
+
+Grupo 19: Varela Ochoa Martín Miguel
+
+Rubro: Tienda Naturista
+
+Github Page: https://martinvarela206.github.io/Integrador-Disenio-Web-1/
+
+Github: https://github.com/martinvarela206/Integrador-Disenio-Web-1
+
+Figma: https://www.figma.com/file/apmBpaBxEKUQDcYgIP4uUK/Integrador?type=design&node-id=0%3A1&mode=design&t=wtuJoukfZP6UKGJ3-1
+
 ## Actividades
 
 - Guia de Estilos
