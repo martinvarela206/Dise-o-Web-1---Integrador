@@ -36,16 +36,15 @@
     <header>
       <!-- BARRA DE NAVEGACIÓN CON MARCA -->
       <nav class="navbar navbar-expand-lg my-bgc-primary my-color-primary">
-        <div class="container-fluid d-flex gap-3">
-          <a class="navbar-brand d-flex align-items-center me-md-5" href="#"
-            ><img
-              class="d-none d-md-block"
+        <div class="container-fluid max-width d-flex gap-3">
+          <span class="navbar-brand d-flex align-items-center me-md-5">
+            <img
               src="assets/icon.png"
               alt="NaturalVit"
               width="64"
             />
-            <h1 class="brand my-color-primary">NaturalVit</h1></a
-          >
+            <h1 class="brand my-color-primary">NaturalVit</h1>
+          </span>
           <button
             class="navbar-toggler mb-1"
             type="button"
@@ -58,15 +57,18 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse links" id="navbar-toggler">
-            <ul class="navbar-nav me-auto d-flex align-items-center">
-              <li class="nav-item me-sm-0 ms-sm-3 me-sm-3 ms-md-0 me-md-5">
-                <a class="nav-link" href="products.html">Productos</a>
-              </li>
-              <li class="nav-item me-sm-0 ms-sm-3 me-sm-3 ms-md-0 me-md-5">
-                <a class="nav-link" href="nosotros.html">Conocenos</a>
+            <ul class="navbar-nav mx-auto d-flex align-items-center m-3 gap-4">
+              <li class="nav-item">
+                <h6><span class="active no-btn btn-leaf my-badges p-3" href="#">Inicio</span></h6>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contactModal" data-bs-toggle="modal" data-bs-target="#contactModal">Contacto</a>
+                <h6><a class="nav-link" href="products.html">Productos</a></h6>
+              </li>
+              <li class="nav-item">
+                <h6><a class="nav-link" href="nosotros.html">Conocenos</a></h6>
+              </li>
+              <li class="nav-item">
+                <h6><a class="nav-link" href="#contactModal" data-bs-toggle="modal" data-bs-target="#contactModal">Contacto</a></h6>
               </li>
             </ul>
           </div>
@@ -184,7 +186,6 @@
       <!-- Mensaje resumen de por que elegirnos y Boton a Modal: Por que elegirnos -->
       <section class="p-5 d-flex flex-column my-bgc-primary">
         <h2 class="my-color-primary align-self-center mb-3">Por qué elegirnos?</h2>
-        <br>
         <a href="nosotros.html" class="btn btn-buy btn-leaf btn-border align-self-center">Conocenos!</a>
       </section>
       <!-- MODAL de contacto -->

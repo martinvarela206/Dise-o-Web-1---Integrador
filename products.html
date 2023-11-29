@@ -40,18 +40,17 @@
     <header>
       <!-- BARRA DE NAVEGACIÓN CON MARCA -->
       <nav class="navbar navbar-expand-lg my-bgc-primary my-color-primary">
-        <div class="container-fluid">
-          <a class="navbar-brand d-flex align-items-center me-md-5" href="index.html"
-            ><img
-              class="d-none d-md-block"
+        <div class="container-fluid max-width d-flex gap-3">
+          <span class="navbar-brand d-flex align-items-center me-md-5">
+            <img
               src="assets/icon.png"
               alt="NaturalVit"
               width="64"
             />
-            <h1 class="brand my-color-primary">NaturalVit</h1></a
-          >
+            <h1 class="brand my-color-primary">NaturalVit</h1>
+          </span>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler mb-1"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbar-toggler"
@@ -62,15 +61,18 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse links" id="navbar-toggler">
-            <ul class="navbar-nav me-auto d-flex align-items-center">
-              <li class="nav-item me-sm-0 ms-sm-3 me-sm-3 ms-md-0 me-md-5">
-                <span class="active no-btn btn-leaf my-badges p-3">Productos</span>
-              </li>
-              <li class="nav-item me-sm-0 ms-sm-3 me-sm-3 ms-md-0 me-md-5">
-                <a class="nav-link" href="nosotros.html">Conocenos</a>
+            <ul class="navbar-nav mx-auto d-flex align-items-center m-3 gap-4">
+              <li class="nav-item">
+                <h6><a class="nav-link" href="index.html">Inicio</a></h6>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contactModal" data-bs-toggle="modal" data-bs-target="#contactModal">Contacto</a>
+                <h6><span class="active no-btn btn-leaf my-badges p-3" href="#">Productos</span></h6>
+              </li>
+              <li class="nav-item">
+                <h6><a class="nav-link" href="nosotros.html">Conocenos</a></h6>
+              </li>
+              <li class="nav-item">
+                <h6><a class="nav-link" href="#contactModal" data-bs-toggle="modal" data-bs-target="#contactModal">Contacto</a></h6>
               </li>
             </ul>
           </div>

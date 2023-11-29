@@ -1,7 +1,12 @@
 .navbar{
     padding: 2rem;
 }
-@media screen and (max-width: 436px) {
+
+.max-width{
+    max-width: 1160px;
+}
+
+@media screen and (max-width: 500px) {
     .navbar div.d-flex{
         justify-content: center;
     }

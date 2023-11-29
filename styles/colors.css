@@ -34,7 +34,7 @@
 
 .my-badges{
     background-color: var(--color-30-dark);
-    color: var(--color-60-light);
+    color: var(--color-60-light) !important;
 }
 
 .my-color-primary{
