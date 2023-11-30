@@ -10,3 +10,9 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+@media (max-width: 500px){
+  .carousel-item .image{
+    height: calc(100svh - 220.16px);
+  }
+}
