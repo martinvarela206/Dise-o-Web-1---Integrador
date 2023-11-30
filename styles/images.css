@@ -14,3 +14,15 @@
   position: relative;
   top: 30px; */
 }
+
+@media (max-width: 500px){
+  img.mini-brand{
+    width: 40px;
+  }
+}
+
+@media (max-width: 379px){
+  img.mini-brand{
+    width: 28px;
+  }
+}

@@ -10,6 +10,18 @@ body{
     padding-left: 3%;
 }
 
+@media (max-width: 500px){
+  h1.mini-brand{
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 379px){
+  h1.mini-brand{
+    font-size: 28px;
+  }
+}
+
 .brand{
     font-family: 'Marck Script', cursive;
     margin:0;
