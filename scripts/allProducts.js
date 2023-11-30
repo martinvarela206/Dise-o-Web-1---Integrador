@@ -16,7 +16,7 @@ dataJSON.forEach((product, i) => {
         product.offer
           ? (1 - product.discount / 100) * product.price
           : product.price
-      } ${product.offer?('<span class="oldPrice">($ '+product.price + ')</span>'):""} <span class="badge no-btn text-bg-success">${
+      } ${product.offer?('<span class="oldPrice">($ '+product.price + ')</span>'):""} <span class="badge no-btn my-badges">${
         product.offer ? ("-"+product.discount+"% descuento!") : ""
       }</span></p>
     </div>
