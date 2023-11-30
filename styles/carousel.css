@@ -2,3 +2,11 @@
   max-width: 540px;
   margin: auto;
 }
+
+.carousel-item .image{
+  width: 100%;
+  height: calc(100vh - 160.56px);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

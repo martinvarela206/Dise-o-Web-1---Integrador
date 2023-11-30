@@ -40,6 +40,10 @@ h2::after{
   position: relative;
 }
 
+h4{
+    font-weight: bold;
+}
+
 .carousel-caption h5{
     font-size: 28px;
 }
