@@ -12,8 +12,8 @@
   background-repeat: no-repeat;
 }
 
-/* @media (max-width: 500px){
+@media (max-width: 500px){
   .carousel-item .image{
-    height: calc(100svh - 220.16px);
+    height: calc(100svh - 128.1px);
   }
-} */
+}
