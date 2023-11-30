@@ -5,14 +5,15 @@
 
 .carousel-item .image{
   width: 100%;
+  height: 800px;
   height: calc(100svh - 160.56px);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-@media (max-width: 500px){
+/* @media (max-width: 500px){
   .carousel-item .image{
     height: calc(100svh - 220.16px);
   }
-}
+} */
