@@ -1,4 +1,9 @@
 #products{
   margin:0;
+  max-width: 1160px;
+}
+
+#products .card{
+  max-width: 254px;
 }
 
