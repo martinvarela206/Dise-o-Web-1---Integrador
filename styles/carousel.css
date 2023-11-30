@@ -5,7 +5,7 @@
 
 .carousel-item .image{
   width: 100%;
-  height: calc(100vh - 160.56px);
+  height: calc(100svh - 160.56px);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
